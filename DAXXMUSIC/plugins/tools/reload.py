@@ -13,10 +13,11 @@ from pyrogram import filters
 
 load_dotenv()
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from SPEa
+SPEEDMUSIC import app
+from SPEEDMUSIC.core.call import DAXX
+from SPEEDMUSIC.misc import db
+from SPEEDMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from DAXXMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
 from DAXXMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
@@ -118,7 +119,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/iam_daxx")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/speeds_net")
                  ]
             ]
          ),
